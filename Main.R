@@ -56,7 +56,7 @@ QMtaste_SignalPerf(VX,signal="sig1")
 
 QMgen_test_Qstick(A1,4,0.6) 
 QMgen_test_Rsquare(A1,75,0.3,0.3) 
-QMgen_test_MACD(A1,par=c(5,15,5),N.min=5)
+QMgen_test_MACD(x.1,par=c(5,16,6),N.min=8)
 
 lin<- function(a=5,b=6){
   write(str_c(deparse(a),"\n",deparse(b),"\n"),"see.txt")
